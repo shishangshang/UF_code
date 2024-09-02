@@ -1,0 +1,5 @@
+(1) 该方法中总共包含三种大类：指数形式(ED),根号形式(PRL),正则化形式或者统一框架(UF)
+(2) 正则化形式中包含两种：self_paced和信息熵。
+self-paced形式包含：SP_Hard， SP_Linear, SP_Log 和SP_Exp.
+(3)信息熵可以写为NE.
+(4)采用自加权的损失函数h(x)包含三种形式：PRL_Root, SWL_LSW和SWL_CSL.
