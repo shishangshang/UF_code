@@ -6,7 +6,7 @@ addpath(genpath('Algorithm'))
 addpath(genpath('data_set'))
 addpath(genpath('function'))
 %% 载入数据
-Files = dir(fullfile('..\Code\data_set', '*.mat'));   
+Files = dir(fullfile('..\UF_Code\data_set', '*.mat'));   
 Max_datanum = length(Files);   % 数据集的个数
 t = 1;                % 防止加入新的算法
  for re_num = 1:1 % 第一个循环，控制重复次数   
