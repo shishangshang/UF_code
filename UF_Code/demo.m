@@ -107,7 +107,7 @@ end
     end     
 %      SPL_mean=mean(results);
 
-   %% Test Negative-entropy(lambda>0)对应于文章中的MALG算法中lambda=1,3,5,7,9;
+   %% Test Negative-entropy(lambda>0)
     if do_NE == 1 
        addpath(genpath('Algorithm\NE'))
        lambda = 1:2:10;  %% lambda调节
